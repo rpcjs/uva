@@ -1,0 +1,36 @@
+{
+  "name": "uva",
+  "version": "0.1.0",
+  "description": "A communication gateway for NodeJS microservices.",
+  "main": "./lib",
+  "scripts": {
+    "test": "mocha -R spec test/"
+  },
+  "keywords": [
+    "uva",
+    "microservice",
+    "node",
+    "communication"
+  ],
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "zoltan.kochan@gmail.com",
+    "url": "http://kochan.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bograch/uva.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "~2.1.1",
+    "mocha": "~2.2.1",
+    "sinon": "^1.15.4"
+  },
+  "dependencies": {
+    "callback-store": "^0.2.1",
+    "debug": "^2.1.3",
+    "kamikaze": "^0.1.0",
+    "state-emitter": "^0.2.0"
+  }
+}
